@@ -53,6 +53,7 @@ if st.button('Classify'):
     
     st.success('This is a success message!', icon="✅")
     st.balloons()
+    st.snow()
     st.write(f'Sentiment: {sentiment}')
     st.write(f'The Prediction Score: {prediction[0][0]}')
 else:
